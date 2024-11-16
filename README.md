@@ -1,4 +1,4 @@
-PrivShare - A simple location encrypting tool
+<h1>PrivShare - A simple location encrypting tool</h1>
 
 PrivShare  is a simple and lightweight web application designed for encrypting and decrypting geographical coordinates in a user-friendly and visually appealing way. The application allows users to input latitude and longitude values manually or use their device’s geolocation to fetch their current coordinates. These coordinates are then encrypted using Base64 encoding, generating a shareable link that can be easily distributed. The app also features a decryption tool, allowing users to input an encoded string and decode it back into the original latitude and longitude.
 
