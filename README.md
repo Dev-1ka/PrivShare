@@ -5,4 +5,7 @@ PrivShare  is a simple and lightweight web application designed for encrypting a
 Built with a clean HTML structure, styled using CSS for a modern and responsive design, and powered by JavaScript for functionality, PrivShare is an excellent demonstration of integrating frontend technologies. Key features include interactive buttons for encrypting and decrypting, intuitive input fields, and dynamically generated shareable links. The design includes background animations for an enhanced user experience, making the app both functional and visually engaging.
 
 While PrivShare showcases the simplicity and utility of encoding and decoding data, it uses Base64 encoding, which is not secure for protecting sensitive information. This project is intended for educational purposes and should not be used for handling confidential data.
+
+Explore PrivShare live here : https://dev-1ka.github.io/PrivShare/
+
 ![img](https://github.com/user-attachments/assets/c6254305-35be-4879-8173-7f01bfe643dc)
