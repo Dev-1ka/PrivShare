@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Encryption</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>PrivShare</h1>
+
+        <div class="card">
+            <h2>Encrypt Location</h2>
+            <label>Enter Latitude and Longitude:</label>
+            <div class="input-group">
+                <input type="text" id="latitudeInput" placeholder="Latitude">
+                <input type="text" id="longitudeInput" placeholder="Longitude">
+            </div>
+            <button onclick="getLocation()">Share Current Location</button>
+            <button onclick="encryptLocation()">Encrypt</button>
+            <div class="output-group">
+                <p><strong>Encrypted Location:</strong></p>
+                <a id="encryptedLink" href="#" class="encrypted-link"></a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Decrypt Location</h2>
+            <div class="input-group">
+                <label for="encryptedInput">Encrypted Text:</label>
+                <input type="text" id="encryptedInput" placeholder="Enter encrypted text">
+            </div>
+            <button onclick="decryptLocation()">Decrypt</button>
+            <div class="output-group">
+                <p><strong>Decrypted Location:</strong></p>
+                <p id="decryptedText"></p>
+            </div>
+        </div>
+    </div>
+    <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
